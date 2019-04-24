@@ -1,0 +1,49 @@
+Look Mum, no VM
+Finding harmony in my Windows life using the Linux subsystem
+Kate Casey
+Technical Lead - Student Management Systems
+James Cook University
+
+Who am I? (30 secs)
+10 years sysadmin experience across JCU's 2 largest enterprise systems
+Now a tech lead on one of those (kind of my dream job)
+
+What is all this Linux subsystem madness? (30 secs)
+Linux-compatible kernel interface with no actual Linux kernel code
+Intended by Microsoft as a supplementary dev env for Windows users
+Ability to run GNU user space, shell and command language, native command line tools, programming language interpreters, and even graphical applications via X11
+Flavours available include Ubuntu, OpenSUSE, SUSE Enterprise Server, Debian, and more
+
+Why did I decide to give it a go? (1 min)
+Can't switch fully to Linux with any degree of ease as my job centres around enterprise, vendor-based, proprietary, Windows-hugging applications
+But I neeeeeeeeeeed things to get things done!
+bash, tmux, vim, pip, ipython, git, dig, grep, ssh-keygen...
+Having 2 partitions on disk and a native Linux  install is no longer a feasible option due to time and flexibility restrictions
+I'm bitter and twisted from years of running local memory-hungry VMs, or else fighting with IT and policy to get a standalone managed instance
+
+How did I do it? (1 min)
+Windows setup prerequisites (screenshots)
+Microsoft store and installation (screenshots)
+Bootstrapping (first update, must-have package installs)
+
+What's fabulous? (30 secs)
+(beautiful stone pic)
+C:\ mount point
+Memory usage
+All your favourite packages; Git without drama, file analysis tools
+The power of piping
+Support for X11 - GUI if you need it
+Benchmarking is very close to native Linux except for some I/O operations
+
+What's not so great? (30 secs)
+(overbalanced stone pic)
+Windows files and Linux files are tricky creatures and sometimes don't play nicely when moved between worlds simply because of structural expectations
+Not capable of running all Linux applications; 32- bit binaries, kernel modules (eg device drivers) as there is no Linux kernel code
+X11 support is not exhaustive: issues with hardware acceleration and no audio support
+
+But what does it all mean, Basil? (1 min)
+My life is at least 100% better than it was before
+My work is possible, whilst my dev environment is fully extensible with all the tools I need
+(Tmux session)
+This presentation was brought to you by my Linux subsystem
+And best of all, by the laws of transference, my Windows box now has Super Cow Powers
