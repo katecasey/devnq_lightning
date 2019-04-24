@@ -8,7 +8,8 @@
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/league.css">
+
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
@@ -25,25 +26,133 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h1>Look Mum, no VM!</h1>
+					<h3 class="lead-spacing">Finding harmony in my Windows life using the Linux subsystem</h3>
+					<p class="lead-spacing fragment fade-in">
+						<span class="bold-font">Kate Casey </span><br/>
+						Technical Lead - Student Management Systems<br/>
+						JCU
+					</p>
+				</section>
+
+				<section><h2>What is all this Linux subsystem business about anyway?</h2></section>
+				<section>
+					<ul>
+					<li class="lead-spacing">Linux-compatible kernel interface; <span style="font-style:italic">no actual Linux kernel code</span></li>
+					<li class="lead-spacing">Supplementary dev env for Windows users:</li>
+						<ul>
+							<li>GNU user space</li>
+							<li>Shell and command language</li> 
+							<li>Native command line tools</li>
+							<li>Programming language interpreters</li>
+							<li>Graphical applications via X11</li>
+						</ul>
+					<li class="lead-spacing">Flavours include Ubuntu, SUSE, Debian, and more</li>
+					</ul>
+				</section>
+
+				<section><h2>Why did I decide to give it a go?</h2></section>
+				<section>
+					<ul>
+						<li class="lead-spacing">Things I need to do that Linux does more gracefully out-of-the-box</li>
+						<li class="lead-spacing">Wish list - bash, tmux, vim, pip, ipython, git, dig, grep, ssh-keygen...</li>
+						<li class="lead-spacing">Can't switch fully to Linux; enterprise, Windows-hugging applications</li>
+						<li class="lead-spacing">2 disk partitions and native Linux install is inflexible and slow </li>
+						<li class="lead-spacing">Local VMs are memory-hungry and messy</li>
+					</ul>
+				</section>
+
+				<section><h2>How did I do it?</h2></section>
+				<section>
+					<ul>
+						<li class="lead-spacing">Windows setup prerequisites (screenshots)</li>
+						<li class="lead-spacing">Microsoft store and installation (screenshots)</li>
+						<li class="lead-spacing">Bootstrapping (first update, must-have package installs)</li>
+
+					</ul>
+				</section>
+
+				<section><h2>What's fabulous?</h2></section>
+				<section>
+					<ul>
+						<li class="lead-spacing"></li>
+						<li class="lead-spacing"></li>
+						<li class="lead-spacing"></li>
+						<li class="lead-spacing"></li>
+						<li class="lead-spacing"></li>
+
+					</ul>
+				</section>
+
+				<section><h2>What's not so great?</h2></section>
+				<section>
+					<ul>
+						<li class="lead-spacing"></li>
+						<li class="lead-spacing"></li>
+						<li class="lead-spacing"></li>
+						<li class="lead-spacing"></li>
+						<li class="lead-spacing"></li>
+
+					</ul>
+				</section>
+
+				<section><h2>But what does it all mean, Basil?</h2></section>
+				<section>
+					<ul>
+						<li class="lead-spacing"></li>
+						<li class="lead-spacing"></li>
+						<li class="lead-spacing"></li>
+						<li class="lead-spacing"></li>
+						<li class="lead-spacing"></li>
+
+					</ul>
+				</section>
+				
+
+				<section><h1>Questions?<h1></section>
+			
 			</div>
 		</div>
 
 		<script src="js/reveal.js"></script>
 
 		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
+				],
+				transition: 'slide'
 			});
 		</script>
+<!--
+
+What's fabulous? (30 secs)
+(beautiful stone pic)
+C:\ mount point
+Memory usage
+All your favourite packages; Git without drama, file analysis tools
+The power of piping
+Support for X11 - GUI if you need it
+Benchmarking is very close to native Linux except for some I/O operations
+
+What's not so great? (30 secs)
+(overbalanced stone pic)
+Windows files and Linux files are tricky creatures and sometimes don't play nicely when moved between worlds simply because of structural expectations
+Not capable of running all Linux applications; 32- bit binaries, kernel modules (eg device drivers) as there is no Linux kernel code
+X11 support is not exhaustive: issues with hardware acceleration and no audio suppor
+
+But what does it all mean, Basil? (1 min)
+My life is at least 100% better than it was before
+My work is possible, whilst my dev environment is fully extensible with all the tools I need
+(Tmux session)
+This presentation was brought to you by my Linux subsystem
+And best of all, by the laws of transference, my Windows box now has Super Cow Powers
+
+-->	
+
 	</body>
 </html>

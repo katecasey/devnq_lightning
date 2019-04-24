@@ -1596,3 +1596,14 @@ body {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+
+/********************************************
+* CUSTOM STYLES
+*********************************************/
+.bold-font {
+font-weight: bold;
+}
+
+.lead-spacing {
+margin-top: 1em;
+}
