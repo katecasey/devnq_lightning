@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Look Mum, No VM!</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
@@ -28,15 +28,21 @@
 			<div class="slides">
 				<section>
 					<h1>Look Mum, no VM!</h1>
-					<h3 class="lead-spacing">Finding harmony in my Windows life using the Linux subsystem</h3>
-					<p class="lead-spacing fragment fade-in">
-						<span class="bold-font">Kate Casey </span><br/>
-						Technical Lead - Student Management Systems<br/>
-						JCU
-					</p>
+					<h3 class="lead-spacing">Finding zen in my Windows life using the Linux subsystem</h3>
+					<div style="margin-top:1em">
+						<img width="45%" style="float:right" src="/images/bonsai_sml.jpg" alt="Bonsai Tree" />	
+						<p class="fragment fade-in" style="width:55%">
+							<span class="bold-font">Kate Casey </span><br/>
+							Technical Lead - Student Management Systems<br/>
+							JCU
+						</p>
+					</div>
 				</section>
 
-				<section><h2>What is all this Linux subsystem business about anyway?</h2></section>
+				<section>
+					<h2>What is all this Linux subsystem business about anyway?</h2>
+					<img width="50%" src="\images\fog_bridge_sml.jpg" alt="Bridge obscured by fog"/>
+				</section>
 				<section>
 					<ul>
 					<li class="lead-spacing">Linux-compatible kernel interface; <span style="font-style:italic">no actual Linux kernel code</span></li>
@@ -52,65 +58,87 @@
 					</ul>
 				</section>
 
-				<section><h2>Why did I decide to give it a go?</h2></section>
+				<section>
+					<h2>Why did I decide to give it a go?
+					</h2>
+					<img width="50%" src="\images\sunset_water_sml.jpg" alt="Dock reflected on water at sunst"/>
+				</section>
+
 				<section>
 					<ul>
-						<li class="lead-spacing">Things I need to do that Linux does more gracefully out-of-the-box</li>
-						<li class="lead-spacing">Wish list - bash, tmux, vim, pip, ipython, git, dig, grep, ssh-keygen...</li>
+						<li class="lead-spacing">Things I want/need to do that Linux does more gracefully out-of-the-box</li>
 						<li class="lead-spacing">Can't switch fully to Linux; enterprise, Windows-hugging applications</li>
 						<li class="lead-spacing">2 disk partitions and native Linux install is inflexible and slow </li>
 						<li class="lead-spacing">Local VMs are memory-hungry and messy</li>
 					</ul>
 				</section>
 
-				<section><h2>How did I do it?</h2></section>
+				<section>
+					<h2>How did I do it?</h2>
+					<img width="50%" src="\images\purple_bridge_sml.jpg" alt="Wooden bridge over river with purple lighting"/>
+				</section>
+
+				<section>
+					<ol>
+						<li class="lead-spacing">Windows setup prerequisites</li>
+						<li class="lead-spacing">Microsoft store and installation</li>
+						<li class="lead-spacing">Bootstrapping (first update, must-have package installs) 
+							<ul>
+								<li> bash, tmux, vim, pip, ipython, git, dig, grep, ssh-keygen, sudoers insults... </li>
+							</ul>
+						</li>
+					</ol>
+				</section>
+
+				<section>
+					<h2>What's fabulous?</h2>
+					<img width="50%" src="\images\stone_pile_sml.jpg" alt="Stone pile"/>
+				</section>
 				<section>
 					<ul>
-						<li class="lead-spacing">Windows setup prerequisites (screenshots)</li>
-						<li class="lead-spacing">Microsoft store and installation (screenshots)</li>
-						<li class="lead-spacing">Bootstrapping (first update, must-have package installs)</li>
-
+						<li class="lead-spacing">C:\ mount point</li>
+						<li class="lead-spacing">All your favourite packages; Git without drama, file analysis tools</li>
+						<li class="lead-spacing">The power of piping</li>
+						<li class="lead-spacing">GUI apps if needed and supported</li>
+						<li class="lead-spacing">Memory usage + benchmarking is very close to native Linux except for some I/O operations</li>
+						<li class="lead-spacing">(Beautiful stone pic)
+					</li>
 					</ul>
 				</section>
 
-				<section><h2>What's fabulous?</h2></section>
+				<section>
+					<h2>What pitalls should you be aware of?</h2>
+					<img width="50%" src="\images\cliff_sml.jpg" alt="Sheer cliff at sunset"/>
+				</section>
 				<section>
 					<ul>
-						<li class="lead-spacing"></li>
-						<li class="lead-spacing"></li>
-						<li class="lead-spacing"></li>
-						<li class="lead-spacing"></li>
-						<li class="lead-spacing"></li>
 
+						<li class="lead-spacing">Windows <span class="font-style:italic">and</span> Linux files don't always play nicely</li>
+						<li class="lead-spacing">Not all Linux applications can be run eg. 32-bit binaries, kernel modules, device drivers - no native Linux kernel code</li>
+						<li class="lead-spacing">X11 support not exhaustive, issues with hardware acceleration, funky screen artefacts</li>
+						<li class="lead-spacing">No audio support (overbalanced stone pic)</li>
 					</ul>
 				</section>
 
-				<section><h2>What's not so great?</h2></section>
 				<section>
-					<ul>
-						<li class="lead-spacing"></li>
-						<li class="lead-spacing"></li>
-						<li class="lead-spacing"></li>
-						<li class="lead-spacing"></li>
-						<li class="lead-spacing"></li>
-
-					</ul>
+					<h2>But what does it all mean?</h2>
+					<img width="50%" src="\images\garden_temple_sml.jpg" alt="Forest trees with temple reflected on water"/>
 				</section>
 
-				<section><h2>But what does it all mean, Basil?</h2></section>
 				<section>
 					<ul>
-						<li class="lead-spacing"></li>
-						<li class="lead-spacing"></li>
-						<li class="lead-spacing"></li>
-						<li class="lead-spacing"></li>
-						<li class="lead-spacing"></li>
-
+						<li class="lead-spacing">My life is at least 100% more zen than it was before</li>
+						<li class="lead-spacing">My work is possible, whilst my dev environment is fully extensible with all the tools I need</li>
+						<li class="lead-spacing fragment fade-in">This presentation was brought to you by my Linux subsystem</li>
+						<li class="lead-spacing fragment fade-in">And best of all, by the laws of transference, my Windows box also has Super Cow Powers</li>
 					</ul>
 				</section>
 				
 
-				<section><h1>Questions?<h1></section>
+				<section>
+					<h1>Questions?</h1>
+					<img width="50%" src="\images\lights_sml.jpg" alt="String of outdoor bulbs"/>
+				</section>
 			
 			</div>
 		</div>
@@ -129,28 +157,6 @@
 			});
 		</script>
 <!--
-
-What's fabulous? (30 secs)
-(beautiful stone pic)
-C:\ mount point
-Memory usage
-All your favourite packages; Git without drama, file analysis tools
-The power of piping
-Support for X11 - GUI if you need it
-Benchmarking is very close to native Linux except for some I/O operations
-
-What's not so great? (30 secs)
-(overbalanced stone pic)
-Windows files and Linux files are tricky creatures and sometimes don't play nicely when moved between worlds simply because of structural expectations
-Not capable of running all Linux applications; 32- bit binaries, kernel modules (eg device drivers) as there is no Linux kernel code
-X11 support is not exhaustive: issues with hardware acceleration and no audio suppor
-
-But what does it all mean, Basil? (1 min)
-My life is at least 100% better than it was before
-My work is possible, whilst my dev environment is fully extensible with all the tools I need
-(Tmux session)
-This presentation was brought to you by my Linux subsystem
-And best of all, by the laws of transference, my Windows box now has Super Cow Powers
 
 -->	
 
