@@ -44,6 +44,7 @@
   "dependencies": {
     "diff": "^4.0.1",
     "extend": ">=3.0.2",
+    "lodash": "^4.17.14",
     "node-gyp": "^5.0.2",
     "tar": "^4.4.10"
   }
