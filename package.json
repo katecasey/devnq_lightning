@@ -38,15 +38,15 @@
     "load-grunt-tasks": "^5.1.0",
     "mustache": "^4.1.0",
     "node-sass": "^5.0.0",
-    "socket.io": "^3.1.0"
+    "socket.io": "^3.1.1"
   },
   "license": "MIT",
   "dependencies": {
-    "bl": "^4.0.3",
+    "bl": "^4.1.0",
     "diff": "^5.0.0",
     "extend": ">=3.0.2",
     "lodash": "^4.17.20",
-    "marked": "^1.2.7",
+    "marked": "^2.0.0",
     "node-gyp": "^7.1.2",
     "tar": "^6.1.0",
     "websocket-extensions": "^0.1.4"
