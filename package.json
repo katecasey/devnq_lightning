@@ -25,7 +25,7 @@
   "devDependencies": {
     "express": "^4.17.1",
     "grunt": "^1.4.0",
-    "grunt-autoprefixer": "^3.0.4",
+    "grunt-autoprefixer": "^0.4.2",
     "grunt-cli": "^1.4.2",
     "grunt-contrib-connect": "^3.0.0",
     "grunt-contrib-cssmin": "^4.0.0",
@@ -37,11 +37,12 @@
     "grunt-zip": "~0.18.2",
     "load-grunt-tasks": "^5.1.0",
     "mustache": "^4.2.0",
-    "node-sass": "^5.0.0",
-    "socket.io": "^4.0.1"
+    "node-sass": "^6.0.0",
+    "socket.io": "^4.0.2"
   },
   "license": "MIT",
   "dependencies": {
+    "autoprefixer": "^10.2.5",
     "bl": "^5.0.0",
     "diff": "^5.0.0",
     "extend": ">=3.0.2",
