@@ -24,9 +24,9 @@
   },
   "devDependencies": {
     "express": "^4.17.1",
-    "grunt": "^1.4.0",
+    "grunt": "^1.4.1",
     "grunt-autoprefixer": "^0.4.2",
-    "grunt-cli": "^1.4.2",
+    "grunt-cli": "^1.4.3",
     "grunt-contrib-connect": "^3.0.0",
     "grunt-contrib-cssmin": "^4.0.0",
     "grunt-contrib-jshint": "^3.0.0",
@@ -38,16 +38,16 @@
     "load-grunt-tasks": "^5.1.0",
     "mustache": "^4.2.0",
     "node-sass": "^6.0.0",
-    "socket.io": "^4.0.2"
+    "socket.io": "^4.1.2"
   },
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^10.2.5",
+    "autoprefixer": "^10.2.6",
     "bl": "^5.0.0",
     "diff": "^5.0.0",
     "extend": ">=3.0.2",
     "lodash": "^4.17.21",
-    "marked": "^2.0.3",
+    "marked": "^2.0.5",
     "node-gyp": "^8.0.0",
     "tar": "^6.1.0",
     "websocket-extensions": "^0.1.4"
